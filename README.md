@@ -1,5 +1,7 @@
 # Northstar Health
 
+**Live site: [northstar-health.vercel.app](https://northstar-health.vercel.app/)**
+
 A fictional healthcare provider web app, built as a front-end portfolio project. Patients can search for doctors, filter by specialty, location and language, read provider profiles, book an appointment through an accessible four-step flow, browse locations, and sign in to a demo patient portal.
 
 > **Everything here is fictional.** Providers, locations, phone numbers (555-01xx) and insurance plans are invented. No real patient data is collected or stored.
@@ -69,7 +71,6 @@ Short notes on *why* things are built this way. Useful in interviews.
 
 ## Possible next steps
 
-- Deploy to Vercel and add the live URL here
 - Component tests (Vitest + Testing Library) and a Playwright end-to-end test of the booking flow
 - Automated accessibility checks (axe) in CI
 - Dark mode using the existing token structure
